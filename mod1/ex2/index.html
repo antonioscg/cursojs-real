@@ -11,20 +11,13 @@
 <body>
     <script>
         function intervalo(n1, n2) {
-           while (n1 < n2) {
-               resultado = n1%2
-               switch (resultado) {
-                   case 1:
-                       
-                       break;
-               
-                   case 0:
-                       return console.log(n1);
-                       
-               }
-               n1++;
-           }
-        }    
+          for (let index = n1; index <= n2; index++) {
+             
+            if(index % 2 == 0){
+                console.log(index);
+
+        
+          }}}
         
          
         intervalo(11, 20);
